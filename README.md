@@ -13,8 +13,8 @@ Useful in situations where thread safety is a concern, e.g., in multithreaded en
 Example usage of StringBuffer:
 
 StringBuffer sb = new StringBuffer("Hello");
-sb.append(" World"); // Appends " World" to the existing StringBuffer
-String result = sb.toString(); // Converts StringBuffer back to String
+sb.append(" World"); 
+String result = sb.toString(); 
 
 StringBuilder
 
@@ -25,8 +25,8 @@ Preferred in single-threaded scenarios or when performance is critical.
 Example usage of StringBuilder:
 
 StringBuilder sb = new StringBuilder("Hello");
-sb.append(" World"); // Appends " World" to the existing StringBuilder
-String result = sb.toString(); // Converts StringBuilder back to String
+sb.append(" World"); 
+String result = sb.toString(); 
 
 Comparison and Usage
 
